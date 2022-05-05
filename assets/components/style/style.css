@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    background-image: url(/assets/img/background.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburguer{
+  align-self: flex-end;
+}
+
+.container {
+    margin: 2rem 8rem 3rem 5rem;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.imdb {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.note-imdb {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+
+.release-date {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.logo-luca {
+    width: 22rem;
+}
+
+.watch-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 20rem;
+    height: 5rem;
+
+    border: none;
+    border-radius: 5rem;
+    background: linear-gradient(154.23deg, #0f3a7b -58.45%, #0cffff 374.49%);
+    box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.160784);
+
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #fff;
+
+    gap: 3rem;
+}
+
+.play-icon{
+    width: 20px;
+}
+
+.movie-description {
+    width: 25rem;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2rem;
+    color: white;
+}
+
+.movies {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 40rem;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .movies::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  .movies::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  .movies::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+  .movies::-webkit-scrollbar-thumb:active {
+    background: #000000;
+  }
+  .movies::-webkit-scrollbar-track {
+    background: #bfbfbf;
+    border: 0px none #ffffff;
+    border-radius: 0px;
+  }
+  .movies::-webkit-scrollbar-track:hover {
+    background: #bfbfbf;
+  }
+  .movies::-webkit-scrollbar-track:active {
+    background: #ffffff;
+  }
+  .movies::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+.movies-thumb {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 40rem;
+    margin-right: 2rem;
+}
+
+.title-movies{
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
