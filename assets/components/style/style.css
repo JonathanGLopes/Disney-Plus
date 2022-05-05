@@ -138,6 +138,10 @@ header {
     margin-right: 2rem;
 }
 
+.movie-thumbnail {
+  border-radius: 1rem;
+}
+
 .title-movies{
     font-size: 28px;
     font-weight: 700;
