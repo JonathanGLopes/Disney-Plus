@@ -9,7 +9,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto
 
-Link preview: disney-plus-two.vercel.app/
+Link preview: https://disney-plus-two.vercel.app/
 
 ## 🎨 Inspiração:
 
